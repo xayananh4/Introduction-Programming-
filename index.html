@@ -1,29 +1,16 @@
-<!doctype html>
+<h2>#Prompt 1 </h2>
+<h2>#Find the value of the innerHeight of the window. </h2>
+<h2>The Window Object</h2>
+<h2>The innerWidth and innerHeight Properties</h2>
 
-<html>
-  <head>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/accommodations.html">Accommodations</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <h1>Visit Detox Resort Website</h1>
-
-    <p>
-      Move some files around and try to update the navigation to still work!
-    </p>
-    <p>
-      <em>(hint: you'll need to update the CSS link href as well)</em>
-    </p>
-  </body>
-</html>
+<p id="demo"></p>
+<hr>
 
 
+
+
+<script>
+let w = window.innerWidth;
+let h = window.innerHeight;
+document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+</script>
